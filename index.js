@@ -42,7 +42,7 @@ async function checkWeather(city){
 }
     searchButton.addEventListener("click",()=>{
         checkWeather(searchBox.value)
-        document.querySelector(".weather").style.display=block;
+        document.querySelector(".weather").style.display="block";
     })
 
     
